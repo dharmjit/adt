@@ -1,14 +1,12 @@
 package graphadt;
 
-import static java.util.Collections.unmodifiableSet;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public abstract class GraphAbs<V extends Vertex, E extends Edge<V>> implements Graph<V, E> {
+public abstract class GraphAbstract<V extends Vertex, E extends Edge<V>> implements GraphInterface<V, E> {
 	private final Map<V, Set<E>> adjacencyList = new HashMap<V, Set<E>>();
 	private final Set<E> allEdges = new HashSet<E>();
 
@@ -90,7 +88,7 @@ public abstract class GraphAbs<V extends Vertex, E extends Edge<V>> implements G
 
 	public String toString() {
 		StringBuilder s = new StringBuilder();
-		s.append("Graph Representation - Adjacency List"+"\n");
+		s.append("GraphInterface Representation - Adjacency List"+"\n");
 		for(Entry<V, Set<E>> entry:getAdjacencyList().entrySet()){
 			s.append(entry.getKey()+": "+entry.getValue()+"\n");
 		}

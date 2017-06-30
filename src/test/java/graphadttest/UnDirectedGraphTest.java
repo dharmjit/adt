@@ -1,10 +1,7 @@
 package graphadttest;
 
-import graphadt.BaseEdge;
-import graphadt.BaseVertex;
-import graphadt.Edge;
+import graphadt.*;
 import graphadt.UnDirectedGraphImpl;
-import graphadt.Vertex;
 
 public class UnDirectedGraphTest {
 	/**

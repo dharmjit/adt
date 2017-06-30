@@ -1,12 +1,11 @@
 package graphadt;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class DirectedGraphImpl<V extends Vertex, E extends Edge<V>> extends GraphAbs<V, E>
-		implements DirectedGraph<V, E> {
+public class DirectedGraphImpl<V extends Vertex, E extends Edge<V>> extends GraphAbstract<V, E>
+		implements DirectedGraphInterface<V, E> {
 
 	private final Map<V, Set<E>> inbound = new HashMap<V, Set<E>>();
 

@@ -2,7 +2,7 @@ package graphadt;
 
 import java.util.Set;
 
-public interface Graph<V extends Vertex, E extends Edge<V>> {
+public interface GraphInterface<V extends Vertex, E extends Edge<V>> {
 	Set<V> getVertices();
 
 	Set<V> getVertices(E e);

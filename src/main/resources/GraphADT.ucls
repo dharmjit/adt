@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.0" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="graphadt.Graph" project="adt" file="/adt/src/main/java/graphadt/Graph.java" 
+  <interface id="1" language="java" name="graphadt.GraphInterface" project="adt" file="/adt/src/main/java/graphadt/Graph.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="468" y="110"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -10,7 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="2" language="java" name="graphadt.DirectedGraph" project="adt" 
+  <interface id="2" language="java" name="graphadt.DirectedGraphInterface" project="adt"
     file="/adt/src/main/java/graphadt/DirectedGraph.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="788" y="266"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -19,7 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <interface id="3" language="java" name="graphadt.UnDirectedGraph" project="adt" 
+  <interface id="3" language="java" name="graphadt.UnDirectedGraphInterface" project="adt"
     file="/adt/src/main/java/graphadt/UnDirectedGraph.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="225" y="265"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -28,7 +28,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="4" language="java" name="graphadt.GraphAbs" project="adt" file="/adt/src/main/java/graphadt/GraphAbs.java" 
+  <class id="4" language="java" name="graphadt.GraphAbstract" project="adt" file="/adt/src/main/java/graphadt/GraphAbs.java"
     binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="474" y="461"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -37,7 +37,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="graphadt.DirectedGraphImpl" project="adt" 
+  <class id="5" language="java" name="graphadt.DirectedGraphImpl" project="adt"
     file="/adt/src/main/java/graphadt/DirectedGraphImpl.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="836" y="500"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -46,7 +46,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="graphadt.UnDirectedGraphImpl" project="adt" 
+  <class id="6" language="java" name="graphadt.UnDirectedGraphImpl" project="adt"
     file="/adt/src/main/java/graphadt/UnDirectedGraphImpl.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="174" y="463"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
